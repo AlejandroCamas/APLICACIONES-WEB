@@ -1,0 +1,59 @@
+AQUI INDICARE PEQUEÑOS COMANDOS ESPECIALES PARA GIT/GITHUB, PARA IR REPASANDOLOS Y NO OLVIDARLOS.
+
+git init: inicializar el repositorio
+
+git add nombre_de_archivo.extensión: agregar el archivo al repositorio
+
+git commit -m “Mensaje”: Agregamos los cambios para el repositorio
+
+git add (nombre del archivo): Agregar los cambios del archivo la carpeta en la 
+
+git add . : sirve para que podamos agregar todos los archivos de una sola instruccion
+
+git status: visualizar cambios.
+
+git log nombre_de_archivos.extensión: histórico de cambios con detalles
+
+git push: envía a otro repositorio remoto lo que estamos haciendo
+
+git pull: traer repositorio remoto
+
+ls: listado de carpetas en donde me encuentro. Es decir, como emplear dir en windows.
+
+pwd: ubicación actual
+
+mkdir: make directory nueva carpeta
+
+touch archivo.extensión: crear archivo vacío
+
+cat archivo.extensión: muestra el contenido del archivo
+
+history: historial de comandos utilizados durante esa sesión
+
+rm archivo.extensión: Eliminación de archivo
+
+comando --help: ayuda sobre el comando
+
+git checkout: traer cambios realizados
+
+git rm --cached archivo.extensión: se utiliza para devolver el archivo que se tiene en ram. Cuando escribimos git add, lo devuelve a estado natural mientras está en staging.
+
+git config --list: muestra la lista de configuración de git
+
+git config --list --show-origin: rutas de acceso a la configuración de git
+
+vim (nombre del archivo) este comando se usa para poder modificar un archivo desde  la consola
+para salir de la consola una vez hecho el vim y terminado de escribir lo que necesitamos el comando es ESC + shift + z + z
+
+Para poder ver todos los cambios de una manera mas especifica los cabios usamos el comando 
+"git log --stat" de esta manera podemos ver los cambios exactos realizados
+
+git log archivo.extensión: muestra la historia del archivo
+
+rm : SIRVE PARA PODER ELIMINAR ARCHIVOS DESDE LA LINEA DE COMANDOS !!!CUIDADO YA QUE PUEDES BORRAR TODO EL DISCO DURO SIN SE USA MAL!!!
+
+history : ESTE COMANDO NOS SIRVE PARA PODER VER EL LISTADO O LOS COMANDOS USADOS DESDE QUE ABRIMOS EL TERMINAL
+
+git rm : o usamos para borrar un archivo que hayamos añadido, para eliminarlo por completo de nuestra rama usamos "git rm --cached"
+
+cat (nombre del archivo) : lo usamos para poder ver el contenido de un archivo pero no nos permite editarlo
