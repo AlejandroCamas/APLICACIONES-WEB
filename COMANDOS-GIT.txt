@@ -1,5 +1,11 @@
-AQUI INDICARE PEQUEÑOS COMANDOS ESPECIALES PARA GIT/GITHUB, PARA IR REPASANDOLOS Y NO OLVIDARLOS.
+AQUI INDICARE PEQUEÑOS COMANDOS ESPECIALES PARA GIT/GITHUB, PARA IR REPASANDOLOS Y NO OLVIDARLOS.}
 
+------------------------------------------------------------------------------------------------------------------------------------
+!!!!!CAMBIAR DE MASTER A MAIN!!!!
+
+git branch -m main
+
+-------------------------------------------------------------------------------------------------------------------------------------
 git init: inicializar el repositorio
 
 git add nombre_de_archivo.extensión: agregar el archivo al repositorio
