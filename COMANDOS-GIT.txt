@@ -1,4 +1,4 @@
-AQUI INDICARE PEQUEÑOS COMANDOS ESPECIALES PARA GIT/GITHUB, PARA IR REPASANDOLOS Y NO OLVIDARLOS.}
+AQUI INDICARE PEQUEÑOS COMANDOS ESPECIALES PARA GIT/GITHUB, PARA IR REPASANDOLOS Y NO OLVIDARLOS.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 !!!!!CAMBIAR DE MASTER A MAIN!!!!
