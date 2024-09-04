@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://via.placeholder.com/1920x1080'); /* URL de la imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    border-radius: 10px;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.tile img {
+    width: 50px;
+    height: 50px;
+}
+
+.tile:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.social-section {
+    text-align: center;
+}
+
+.social-section img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.btn {
+    background-color: #007BFF; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+.footer-text {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    width: 100%;
+}
