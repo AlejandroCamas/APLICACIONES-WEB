@@ -13,6 +13,12 @@ git config --global user.email "tucorreo"
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
+
+!!!!REALIZAR CAMBIOS DE NOMBRE:
+
+git config --global user.name "tunombre"
+
+--------------------------------------------------------------------------------------------------------------------------------------
 git init: inicializar el repositorio
 
 git add nombre_de_archivo.extensión: agregar el archivo al repositorio
