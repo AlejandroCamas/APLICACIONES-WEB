@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+backgraund {
+    background-image: url("imagenes/imagen1gwen.jpg");
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-image: url('https://images2.alphacoders.com/114/1149583.jpg'); /* Imagen de fondo */
+    background-size: cover;
+}
+th, td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    position: relative; /* Necesario para posicionar iconos */
+}
+th {
+    background-color: #b3cde0; /* Azul pastel */
+}
+td {
+    background-color: rgba(242, 242, 242, 0.8); /* Gris claro con transparencia */
+}
+tr:nth-child(even) td {
+    background-color: rgba(230, 230, 230, 0.8); /* Gris un poco más oscuro con transparencia */
+}
+tr:hover td {
+    background-color: rgba(217, 217, 217, 0.8); /* Gris más oscuro al pasar el ratón con transparencia */
+}
+.header, .footer {
+    background-color: #b9ddfa; /* Lila pastel */
+    text-align: center;
+    font-weight: bold;
+}
+.menu {
+    background-color: #ccebc5; /* Verde pastel */
+}
+.icon-html{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.icon-javascript-logo{
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+.icon-css-logo{
+    width: 40px; /*ancho*/
+    height: 50px; /*alto*/
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
