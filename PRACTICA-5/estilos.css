@@ -1,8 +1,18 @@
+
+/*colocamos el estilo de nuestro body el cual le indicamos que queremos tenga un color determinado*/
 body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
     color: #333;
 }
+/*colocamos un estilo extra para nuestra caja superior*/
+backgraund_caja_superior {
+
+    background-image: url();
+    width: fit-content;
+    height: fit-content;
+}
+/*este backgraund es para poder colocar una imagen de fondo la usal usaremos la imagen de gwen la cual tenemos ya pre descargada*/
 backgraund {
     background-image: url("imagenes/imagen1gwen.jpg");
     width: 50px;
