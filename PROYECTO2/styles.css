@@ -1,0 +1,97 @@
+/*TENEMOS NUESTROS ESTILOS LOS CUALES USAREMOS EN NUESTRA PAGINA, ESTOS PUEDEN CAMBIAR A FUTURO AL IR AVANZANDO EN EL PROYECTO*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.slideshow {
+    position: relative;
+    text-align: center;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+
+.slideshow button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slideshow button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow button:nth-child(1) {
+    left: 10px;
+}
+
+.slideshow button:nth-child(3) {
+    right: 10px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+.video a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.video a:hover {
+    text-decoration: underline;
+}
+
+.email-info {
+    margin-top: 20px;
+}
+
+.email-info h2 {
+    color: #4CAF50;
+}
+
+.email-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.email-info li {
+    background-color: #e0f7fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+}

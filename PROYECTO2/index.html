@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Informativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Información sobre el correo electrónico</h1>
+        </header>
+        <section class="slideshow">
+            <button onclick="changeImage(-1)">❮</button>
+            <img id="background-image" src="image1.jpg" alt="Imagen de fondo">
+            <button onclick="changeImage(1)">❯</button>
+        </section>
+        <section class="video">
+            <h2>Video Informativo</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            <p><a href="https://www.youtube.com/watch?v=tu_video_id" target="_blank">Ver en YouTube</a></p>
+        </section>
+        <section class="email-info">
+            <h2>Información sobre el Correo Electrónico</h2>
+            <p>El correo electrónico es un método de intercambio de mensajes entre personas usando dispositivos electrónicos. Fue concebido como una versión digital del correo postal, pero ha evolucionado para incluir una variedad de funcionalidades adicionales.</p>
+            <ul>
+                <li><strong>Historia:</strong> El primer sistema de correo electrónico fue desarrollado en 1971 por Ray Tomlinson.</li>
+                <li><strong>Protocolo:</strong> Los correos electrónicos se envían y reciben utilizando protocolos como SMTP, IMAP y POP3.</li>
+                <li><strong>Uso:</strong> Es una herramienta esencial para la comunicación personal y profesional en la era digital.</li>
+            </ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
