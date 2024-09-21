@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Computadoras Semiprofesionales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>EALEKEY PC'S</h1>
+       
+    </header>
+
+    <!-- Sección de productos -->
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="IMAGENES\IMAGEN2.jpeg" alt="Computadora 1">
+            <h3>Computadora PURPLE-HEARD.</h3>
+            <p>Descripción:
+                INTEL CORE I7 12700KF 
+                24 GB DE RAM DDR5
+                INVIDIA RTX 4070 TI SUPER
+                2 TB SSD M.2 GEN4.</p>
+            <button onclick="agregarAlCarrito('Computadora 1')">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="IMAGENES\IMAGEN1.jpeg" alt="Computadora 2">
+            <h3>Computadora ICE.</h3>
+            <p>Descripción:
+                INTEL CORE I7 12700KF 
+                24 GB DE RAM DDR5
+                INVIDIA RTX 4070 
+                1 TB SSD M.2 GEN4.</p>
+            <button onclick="agregarAlCarrito('Computadora 2')">Agregar al carrito</button>
+        </div>
+
+        <div class="producto">
+            <img src="IMAGENES\IMAGEN3.jpeg" alt="teclado ASUS ROG">
+            <h3>Teclado</h3>
+            <p>Switches mecánicos ópticos ROG RX: Disfrute de pulsaciones de teclas uniformes y sin oscilaciones con una respuesta de 1ms y una vida útil de 100 millones de pulsaciones
+                Conoce más acerca de los switches ROG RX.</p>
+            <p>Iluminación ROG: LED RGB por tecla con iluminación central para una iluminación completa, logotipo ROG retroiluminado y efectos de luz personalizables.</p>
+            <button onclick="agregarAlCarrito('TECLADO ASUS ROG')">Agregar al carrito</button>
+        </div>
+        <!-- Agrega más productos según sea necesario -->
+    </section>
+
+    <!-- Carrito de compras -->
+    <section id="carrito">
+        <h2>Carrito de Compras:</h2>
+        <ul id="lista-carrito">
+            <!-- Los productos agregados al carrito aparecerán aquí -->
+        </ul>
+    </section>
+    <center><tr height="100px"> <!--pie de pagina-->
+        <td colspan="2" class="footer">
+            <h3>ING. Sistemas</h3>
+            <p>© Alejandro Moreno Camas</p>
+        </td>
+    </tr>
+</center>
+    <script src="logica.js"></script>
+</body>
+</html>

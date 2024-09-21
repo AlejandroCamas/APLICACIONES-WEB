@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://wallpapercave.com/wp/wp8968329.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    color: white; /* Color de las letras */
+}
+
+/* Encabezado */
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img {
+    width: 20px; /* Ancho de la imagen */
+    height: 20px; /* Altura de la imagen */
+    margin-right: 1rem;
+}
+/* Sección de productos */
+#productos {
+    padding: 2rem;
+}
+
+.producto {
+    background-color: transparent; /* Fondo negro para mejor legibilidad */
+    border: 5px solid #7cdefb;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: white; /* Color de las letras */
+}
+
+.producto img {
+    width: 450px; /* Ancho de la imagen */
+    height: 450px; /* Altura de la imagen */
+    border-radius: 5px;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Georgia', serif; /* Tipografía elegante */
+    border-radius: 0; /* Botón cuadrado */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Carrito de compras */
+#carrito {
+    padding: 2rem;
+}
+
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    background-color: black; /* Fondo negro para mejor legibilidad */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+    color: white; /* Color de las letras */
+}
