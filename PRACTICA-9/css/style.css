@@ -1,0 +1,123 @@
+/* Estilos globales */
+html, body {
+    height: 100%; /* Asegura que el HTML y body abarquen toda la ventana */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Fuente global */
+    color: #e3dcdc; /* Color claro para el texto */
+    background-image: url('../img/fondo-cyberpunk.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Que cubra toda la pantalla */
+    background-attachment: fixed; /* La imagen de fondo permanece fija */
+}
+
+/* Estilos para mantener el footer en la parte inferior */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    flex: 1; /* Ocupa el espacio restante entre el header y el footer */
+    min-height: calc(100vh - 100px); /* Altura mínima para que el contenido principal abarque todo menos el footer */
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.75); /* Fondo oscuro translúcido */
+    border-radius: 10px;
+}
+
+header nav {
+    background-color: rgba(20, 20, 20, 0.85); /* Fondo oscuro con transparencia */
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffcccc; /* Color suave para resaltar */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #d9abf7; /* Color dorado para que resalte */
+}
+
+p, li {
+    color: #9deaf8; /* Color claro */
+}
+
+/* Tablas estilizadas */
+.table-dark {
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #ffcccc;
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #000000;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #e206ff;
+}
+
+.card-subtitle {
+    color: #ff0000;
+}
+
+.card-link {
+    color: #ff0404;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer que se queda en la parte inferior */
+footer {
+    height: 100px; /* Altura fija del footer */
+    background-color: rgba(20, 20, 20, 0.85); /* Fondo oscuro translúcido */
+    color: #f00d0d; /* Color de texto */
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Empuja el footer hacia abajo si hay poco contenido */
+}
+
+/* Estilos para el cuadro de contenido */
+.content-box {
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo negro translúcido */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h3, h4{
+    color: white;
+}
