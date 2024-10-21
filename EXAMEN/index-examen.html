@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>TIENDA ALIMENNTOS</title>
+  <style>
+    :root {
+      --white: #FFFFFF;
+      --black: #000000;
+      --very-light-pink: #C7C7C7;
+      --text-input-field: #F7F7F7;
+      --hospital-green: #ACD9B2;
+      --sm: 14px;
+      --md: 16px;
+      --lg: 18px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 24px;
+      border-bottom: 1px solid var(--very-light-pink);
+    }
+    .menu {
+      display: none;
+    }
+    .logo {
+      width: 100px;
+    }
+    .navbar-left ul,
+    .navbar-right ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      height: 60px;
+    }
+    .navbar-left {
+      display: flex;
+    }
+    .navbar-left ul {
+      margin-left: 12px;
+    }
+    .navbar-left ul li a,
+    .navbar-right ul li a {
+      text-decoration: none;
+      color: var(--very-light-pink);
+      border: 1px solid var(--white);
+      padding: 8px;
+      border-radius: 8px;
+    }
+    .navbar-left ul li a:hover,
+    .navbar-right ul li a:hover {
+      border: 1px solid var(--hospital-green);
+      color: var(--hospital-green);
+    }
+    .navbar-email {
+      color: var(--very-light-pink);
+      font-size: var(--sm);
+      margin-right: 12px;
+    }
+    .navbar-shopping-cart {
+      position: relative;
+    }
+    .navbar-shopping-cart div {
+      width: 16px;
+      height: 16px;
+      background-color: var(--hospital-green);
+      border-radius: 50%;
+      font-size: var(--sm);
+      font-weight: bold;
+      position: absolute;
+      top: -6px;
+      right: -3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 640px) {
+      .menu {
+        display: block;
+      }
+      .navbar-left ul {
+        display: none;
+      }
+      .navbar-email {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <img src="./icons/icon_menu.svg" alt="menu" class="menu">
+
+
+    <!--nuestra barra de desplazamiento-->
+    <div class="navbar-left">
+      <img src="./icons/Logo.jpg" alt="logo" class="logo">
+
+      <ul>
+        <li>
+          <a href="/">CONOCENOS</a>
+        </li>
+        <li>
+          <a href="/">TIENDAS</a>
+        </li>
+        <li>
+          <a href="/">BOLSA DE TRABAJO</a>
+        </li>
+        <li>
+          <a href="/">ATENCION A CLIENTES</a>
+        </li>
+        <li>
+          <a href="/">REGISTRARSE</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+
+    </div>
+
+
+    <div class="navbar-right">
+      <ul>
+        <li class="navbar-email">USUARIO@gmail.com</li>
+        <li class="navbar-shopping-cart">
+          <img src="./icons/icon_shopping_cart.svg" alt="shopping cart">
+          <div>2</div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="imge"></div>
+  <img  src= "./icons/banner.jpg">
+  <div class="imge"></div>
+  <img  src= "./icons/BANER2.png">
+  <!--contenido de la pagina-->
+  <div id="inicio" class="seccion">
+    <div class="container content-box">
+      <div class="navbar" ></div>
+        <h1>Cyberpunk: Edgerunners</h1>
+        <p>En una distopía invadida por la corrupción, el crimen y los implantes cibernéticos, un joven impulsivo pero talentoso llamado David Martinez, después de perder todo lo que tiene en un tiroteo desde un vehículo, toma la decisión de sobrevivir en el lado equivocado de la ley.</p>
+        
+        <h2>Características de la serie:</h2>
+        <ul>
+            <li><></li>
+            <li><strong>CYBERPUNK</strong> </li>
+            <li><strong>CORRUPCION</strong> </li>
+            <li><strong>DESESPERACION</strong> </li>
+            <li><strong>MUNDO DISTOPICO</strong> </li>
+        </ul>
+
+        
+        <h2>Sistemas de juego</h2>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Aspecto</th>
+                    <th scope="col">Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Plataforma Streaming</strong></td>
+                    <td>NETFLIX</td>
+                </tr>
+                <tr>
+                    <td><strong>Género</strong></td>
+                    <td>Acción, Gore</td>
+                </tr>
+                <tr>
+                    <td><strong>Desarrolladores</strong></td>
+                    <td>NETFLIX, CD Projekt RED</td>
+                </tr>
+                <tr>
+                    <td><strong>Tiempo</strong></td>
+                    <td>Distopico.</td>
+                </tr>
+                <tr>
+                    <td><strong>Duración</strong></td>
+                    <td>10 capitulos con duracion de 25 minutos</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </div>
+</div>
+
+
+<!-- Historia -->
+<div id="nosotros" class="seccion" style="display:none;">
+<div class="container content-box">
+    <h2>Historia</h2>
+    <p>La historia de Cyberpunk: Edgerunners transcurre en la ciudad estadounidense de Night City, una megaciudad en el Estado Libre de California del Norte. Dicha ciudad sufre una gran corrupción, adicción cibernética y violencia de pandillas. La ciudad está dividida en seis distritos, cada uno de los cuales tiene sus propios requisitos de vida precisos, y está controlada por varias megacorporaciones diferentes, incluidas Arasaka Corporation y su rival Militech Corporation. La historia del anime se desarrolla principalmente en Santo Domingo, el distrito más antiguo, pobre e industrial de Night City.
+
+        En una distopía invadida por la corrupción, el crimen y los implantes cibernéticos, un joven impulsivo pero talentoso llamado David Martinez, después de perder todo lo que tiene en un tiroteo desde un vehículo, toma la decisión de sobrevivir en el lado equivocado de la ley como un «edgerunner»: un mercenario del mercado negro de alta tecnología también conocido como «cyberpunk» para así poder finalmente ganarse la vida por medio de encargos.</p>
+
+   
+    <!-- Línea de tiempo visual -->
+    <h3>Línea de Tiempo</h3>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h4>Intro</h4>
+            <p>Se presenta la admosfera que tendra la obra</p>
+        </div>
+        <div class="timeline-item">
+            <h4>El Inicio de la Corrupción</h4>
+            <p>David Martinez es un joven que asiste a la prestigiosa Academia Arasaka.</p>
+        </div>
+        <div class="timeline-item">
+            <h4>David Despierta</h4>
+            <p>Maine comienza a desarrollar signos de ciberpsicosis a medida que comienza a tener problemas para controlar sus implantes</p>
+        </div>
+        <div class="timeline-item">
+            <h4>La Batalla Final</h4>
+            <p>El clímax de la historia lleva a David a enfrentarse al mercenario mas peligroso.</p>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Personajes -->
+<div id="personajes" class="seccion" style="display:none;">
+<div class="container content-box">
+    <h2>Personajes</h2>
+    <div class="row justify-content-center">
+        
+        <!-- Personaje: Protagonista david -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top mx-auto" src="img/DAVID-MARTINEZ.jpg" alt="David prota" style="width: 100%; max-height: 300px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title">David Martinez</h5>
+                    <h6 class="card-text">El protagonista. Un adolescente de ascendencia hispana que estudia en la prestigiosa Academia Arasaka. Debido a que proviene de una familia pobre, sus compañeros de clase lo acosan sin descanso y siente que no pertenece a la escuela. Una tragedia repentina y devastadora lo lleva a abandonar su educación y lo pone en el camino de convertirse en un «edgerunner».</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personaje: lucy -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top mx-auto" src="img/Lucy Kushinada.jpg" alt="lucy" style="width: 100%; max-height: 300px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title">Lucy Kushinada</h5>
+                    <h6 class="card-text">Una joven «netrunner» que se involucra románticamente con David y le presenta el inframundo criminal de Night City. Tiene un odio particular hacia Arasaka y sueña con viajar a la Luna.</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personaje: Maine -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top mx-auto" src="img/Maine.jpg" alt="Maine" style="width: 100%; max-height: 300px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title">Maine</h5>
+                    <h6 class="card-text">Un edgerunner veterano que comanda su propia pandilla. Es uno de los clientes de Glora y permite a David unirse al grupo bajo su guía.</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personaje: Dorio -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top mx-auto" src="img/Dorio.jpg" alt="Dorio" style="width: 100%; max-height: 300px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title">Dorio</h5>
+                    <h6 class="card-text">Una edgerunner veterana y mano derecha de Maine. Es muy fuerte y a pesar de su apariencia ruda, tiene un lado tierno que solo muestra a las personas en las que confía.</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personaje: Rebecca -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top mx-auto" src="img/Rebecca.jpg" alt="Rebecca" style="width: 100%; max-height: 300px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title">Rebecca</h5>
+                    <h6 class="card-text">Una edgerunner de gatillo fácil miembro de la pandilla de Maine. Ella es también la hermana menor de Pilar.</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Personaje: Gloria Martinez  -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img class="card-img-top mx-auto" src="img/Gloria Martinez.jpg" alt="Gloria Martinez " style="width: 100%; max-height: 300px; object-fit: contain;">
+                <div class="card-body">
+                    <h5 class="card-title">Gloria Martinez </h5>
+                    <h6 class="card-text">Madre de David y paramédica que trabaja incansablemente para pagar por los estudios de David en la academia de Arasaka.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+<footer>
+    <div class="container">
+        <p>&copy; 2022 NETFLIX, Rafał Jaki. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script>
+    function mostrarSeccion(seccionId) {
+        $('.seccion').hide();
+        $('#' + seccionId).fadeIn();
+    }
+</script>
+
+
+</body>
+</html>
